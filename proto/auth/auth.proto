@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "./";
+option go_package = "fishman.auth.v1";
 
 service Auth{
   rpc CreateUer(NewUser) returns (UserId){}
